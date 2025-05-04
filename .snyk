@@ -1,0 +1,100 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - babel-eslint > @babel/traverse > lodash:
+        patched: '2025-05-04T17:40:59.732Z'
+        id: SNYK-JS-LODASH-567746
+        path: babel-eslint > @babel/traverse > lodash
+    - truffle-compile > truffle-config > lodash:
+        patched: '2025-05-04T17:40:59.732Z'
+        id: SNYK-JS-LODASH-567746
+        path: truffle-compile > truffle-config > lodash
+    - ganache-core > async > lodash:
+        patched: '2025-05-04T17:40:59.732Z'
+        id: SNYK-JS-LODASH-567746
+        path: ganache-core > async > lodash
+    - ganache-core > ethereumjs-block > async > lodash:
+        patched: '2025-05-04T17:40:59.732Z'
+        id: SNYK-JS-LODASH-567746
+        path: ganache-core > ethereumjs-block > async > lodash
+    - truffle-compile > request-promise > request-promise-core > lodash:
+        patched: '2025-05-04T17:40:59.732Z'
+        id: SNYK-JS-LODASH-567746
+        path: truffle-compile > request-promise > request-promise-core > lodash
+    - truffle-compile > truffle-config > truffle-provider > truffle-interface-adapter > lodash:
+        patched: '2025-05-04T17:40:59.732Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-compile > truffle-config > truffle-provider >
+          truffle-interface-adapter > lodash
+    - ganache-core > web3-provider-engine > eth-block-tracker > json-rpc-engine > babel-preset-env > babel-plugin-transform-es2015-block-scoping > lodash:
+        patched: '2025-05-04T17:40:59.732Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          ganache-core > web3-provider-engine > eth-block-tracker >
+          json-rpc-engine > babel-preset-env >
+          babel-plugin-transform-es2015-block-scoping > lodash
+    - ganache-core > web3-provider-engine > eth-block-tracker > json-rpc-engine > babelify > babel-core > lodash:
+        patched: '2025-05-04T17:40:59.732Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          ganache-core > web3-provider-engine > eth-block-tracker >
+          json-rpc-engine > babelify > babel-core > lodash
+    - ganache-core > web3-provider-engine > eth-block-tracker > json-rpc-engine > babel-preset-env > babel-plugin-transform-es2015-classes > babel-helper-define-map > lodash:
+        patched: '2025-05-04T17:40:59.732Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          ganache-core > web3-provider-engine > eth-block-tracker >
+          json-rpc-engine > babel-preset-env >
+          babel-plugin-transform-es2015-classes > babel-helper-define-map >
+          lodash
+    - ganache-core > web3-provider-engine > eth-block-tracker > json-rpc-engine > babel-preset-env > babel-plugin-transform-es2015-sticky-regex > babel-helper-regex > lodash:
+        patched: '2025-05-04T17:40:59.732Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          ganache-core > web3-provider-engine > eth-block-tracker >
+          json-rpc-engine > babel-preset-env >
+          babel-plugin-transform-es2015-sticky-regex > babel-helper-regex >
+          lodash
+    - ganache-core > web3-provider-engine > eth-block-tracker > json-rpc-engine > babelify > babel-core > babel-generator > lodash:
+        patched: '2025-05-04T17:40:59.732Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          ganache-core > web3-provider-engine > eth-block-tracker >
+          json-rpc-engine > babelify > babel-core > babel-generator > lodash
+    - ganache-core > web3-provider-engine > eth-block-tracker > json-rpc-engine > babelify > babel-core > babel-register > lodash:
+        patched: '2025-05-04T17:40:59.732Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          ganache-core > web3-provider-engine > eth-block-tracker >
+          json-rpc-engine > babelify > babel-core > babel-register > lodash
+    - ganache-core > web3-provider-engine > eth-block-tracker > json-rpc-engine > babel-preset-env > babel-plugin-transform-async-to-generator > babel-helper-remap-async-to-generator > babel-helper-function-name > babel-template > lodash:
+        patched: '2025-05-04T17:40:59.732Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          ganache-core > web3-provider-engine > eth-block-tracker >
+          json-rpc-engine > babel-preset-env >
+          babel-plugin-transform-async-to-generator >
+          babel-helper-remap-async-to-generator > babel-helper-function-name >
+          babel-template > lodash
+    - ganache-core > web3-provider-engine > eth-block-tracker > json-rpc-engine > babel-preset-env > babel-plugin-transform-async-to-generator > babel-helper-remap-async-to-generator > babel-helper-function-name > babel-helper-get-function-arity > babel-types > lodash:
+        patched: '2025-05-04T17:40:59.732Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          ganache-core > web3-provider-engine > eth-block-tracker >
+          json-rpc-engine > babel-preset-env >
+          babel-plugin-transform-async-to-generator >
+          babel-helper-remap-async-to-generator > babel-helper-function-name >
+          babel-helper-get-function-arity > babel-types > lodash
+    - ganache-core > web3-provider-engine > eth-block-tracker > json-rpc-engine > babel-preset-env > babel-plugin-transform-async-to-generator > babel-helper-remap-async-to-generator > babel-helper-function-name > babel-template > babel-traverse > lodash:
+        patched: '2025-05-04T17:40:59.732Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          ganache-core > web3-provider-engine > eth-block-tracker >
+          json-rpc-engine > babel-preset-env >
+          babel-plugin-transform-async-to-generator >
+          babel-helper-remap-async-to-generator > babel-helper-function-name >
+          babel-template > babel-traverse > lodash
